@@ -22,6 +22,18 @@ public class FuelDepot {
 
     // Method to implement for a)
     public int nextTankToFill(int threshold) {
+        int max = 0;
+        for(int i = 0; i < this.tanks.size(); i++){
+            for(int j = 0; j < max; j++){
+                if (j > max){
+                    max = j;
+                }
+                if(this.tanks.get(i).getFuelLevel() < threshold){
+                    
+            }
+            }
+            
+        }
         // Your implementation here
     }
 
